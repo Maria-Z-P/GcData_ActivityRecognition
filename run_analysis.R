@@ -11,7 +11,7 @@ if (!file.exists("./UCI HAR Dataset")) {
 }
 
 subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
-xtest <- read.table("./UCI HAR Dataset/test/X_test.txt")  # here read.csv doesn't work
+xtest <- read.table("./UCI HAR Dataset/test/X_test.txt")
 ytest <- read.table("./UCI HAR Dataset/test/y_test.txt")
 
 subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
